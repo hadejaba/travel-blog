@@ -1,17 +1,30 @@
 body {
     background-color: #f7ede2;
+    font-family: 'Montserrat', sans-serif;
 }
 
 h1 {
     text-align: center;
     font-size: 40px;
     color: #84a59d;
+    text-transform: uppercase;
+    font-weight: 600;
+    padding: 5px;
+    background-color: #f6bd60;
+    border: 1px solid #cfcfcf;
+    border-radius: 3px;
+    width: 25%;
+    margin: 0 auto;
 }
 
 h2 {
-    font-size: 20px;
+    margin: 0 auto;
     text-align: center;
+    font-size: 20px;
     color: #f28482;
+    font-weight: 600;
+    width: 60%;
+    padding-top: 100px;
 }
 
 a {
@@ -29,41 +42,91 @@ img {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;
+    padding-top: 20px;
 }
 
 .flexbox-item {
-width: 350px;
-height: 400px;
-padding: 30px;
-text-align: center;
+    /* width: 350px;
+    height: 400px; */
+    padding-bottom: 100px;
+    text-align: center;
 }
 
 .one {
+    flex: 1;
     flex-shrink: 0;
     flex-grow: 1;
+
 }
 
 .two {
+    flex: 1;
     flex-grow: 1;
     flex-shrink: 1;
+
 }
 
 .three {
-    flex-shrink: 0;
-    flex-grow: 0;
-    text-align: center;
+    flex: 1;
+    flex-shrink: 1;
+    flex-grow: 1;
 }
 
 .second-container {
+    margin: 0 auto;
+    width: 90%;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row-reverse;
-    justify-content: space-around;
+    justify-content: center;
+}
+
+.four {
+    flex: 1;
+    flex-shrink: 0;
+    flex-grow: 1;
+
 }
 
 .five {
-    text-align: center;
-    flex-grow: 1;
+    flex: 2;
+    flex-grow: 2;
     flex-shrink: 1;
+
+}
+
+.six {
+    flex: 1;
+    flex-shrink: 1;
+    flex-grow: 1;
+}
+
+.third-container {
+    margin: 0 auto;
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    /* flex-direction: row-reverse; */
+    justify-content: center;
+}
+
+.seven {
+    flex: 1;
+    flex-shrink: 0;
+    flex-grow: 1;
+
+}
+
+.eight {
+    flex: 2;
+    flex-grow: 2;
+    flex-shrink: 1;
+
+}
+
+.nine {
+    flex: 1;
+    flex-shrink: 1;
+    flex-grow: 1;
 }
