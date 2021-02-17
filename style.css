@@ -9,7 +9,8 @@ h1 {
 }
 
 h2 {
-    font-size: 27px;
+    font-size: 20px;
+    text-align: center;
     color: #f28482;
 }
 
@@ -23,6 +24,8 @@ img {
 }
 
 .flexbox-container {
+    margin: 0 auto;
+    width: 90%;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
@@ -32,6 +35,8 @@ img {
 .flexbox-item {
 width: 350px;
 height: 400px;
+padding: 30px;
+text-align: center;
 }
 
 .one {
@@ -47,6 +52,7 @@ height: 400px;
 .three {
     flex-shrink: 0;
     flex-grow: 0;
+    text-align: center;
 }
 
 .second-container {
@@ -58,6 +64,6 @@ height: 400px;
 
 .five {
     text-align: center;
-    flex-grow: 2;
+    flex-grow: 1;
     flex-shrink: 1;
 }
